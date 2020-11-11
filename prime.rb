@@ -1,7 +1,10 @@
 def prime?(number)
-  if number > 1 && number % 1 && number % number && number % i /= 0
-    return true
-  else
+  if number <= 1
     return false
+  elsif
+    number.each do |value|
+      value % i == 0
+      return false
+    end
   end
 end
