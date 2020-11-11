@@ -1,3 +1,7 @@
 def prime?(number)
-  return true if number % 1 && number % number && number /= 1
+  if number % 1 && number % number && number /= 1
+    return true
+  else
+    return false
+  end
 end
